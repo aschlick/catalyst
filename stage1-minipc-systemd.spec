@@ -8,5 +8,5 @@ source_subpath: default/stage3-amd64-systemd-latest
 compression_mode: pixz
 update_seed: yes
 update_seed_command: --update --deep --newuse @world
-portage_confdir: /var/tmp/catalyst/releng/releases/portage/stages
-portage_prefix: releng
+portage_confdir: ./portage
+portage_prefix: schlick
